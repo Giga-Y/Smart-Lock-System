@@ -100,17 +100,10 @@ void Draw_Boot_Page(void) {
     LCD_TFT_ShowChinese_16x16(60, 28, HZ_Xin, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(60, 46, HZ_Gong, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(60, 64, HZ_Cheng, GREEN, BLACK);
-    LCD_TFT_ShowString(60, 86, (u8*)"B23010526", FONT1608, GREEN, BLACK); 
-    LCD_TFT_ShowChinese_16x16(60, 158, HZ_Gu, GREEN, BLACK);
-    LCD_TFT_ShowChinese_16x16(60, 178, HZ_Yang, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(100, 10, HZ_Tong, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(100, 28, HZ_Xin, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(100, 46, HZ_Gong, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(100, 64, HZ_Cheng, GREEN, BLACK);
-    LCD_TFT_ShowString(100, 86, (u8*)"B23010528", FONT1608, GREEN, BLACK);
-    LCD_TFT_ShowChinese_16x16(100, 158, HZ_Sheng, GREEN, BLACK);
-    LCD_TFT_ShowChinese_16x16(100, 178, HZ_Xiang, GREEN, BLACK);
-    LCD_TFT_ShowChinese_16x16(100, 198, HZ_Yu, GREEN, BLACK);
     LCD_TFT_ShowChinese_16x16(140, 10, HZ_Wan, CYAN, BLACK);
     LCD_TFT_ShowChinese_16x16(140, 30, HZ_Cheng2, CYAN, BLACK);
     LCD_TFT_ShowChinese_16x16(140, 50, HZ_Ri, CYAN, BLACK);
